@@ -1,12 +1,16 @@
 import 'dart:io';
 
 void main() {
-  great("andika", 2004);
-  averageValue();
-  var firstNumber = 7;
-  var secondNumber = 10;
-  print(
-      'Rata-rata dari $firstNumber & $secondNumber adalah ${average(firstNumber, secondNumber)}');
+  // great("andika", 2004);
+  // averageValue();
+  // var firstNumber = 7;
+  // var secondNumber = 10;
+  // print(
+  //     'Rata-rata dari $firstNumber & $secondNumber adalah ${average(firstNumber, secondNumber)}');
+
+  double number = 45.8326473;
+  var numbers = number.toStringAsFixed(2);
+  print(numbers);
 }
 
 void great(String name, int bornYear) {
